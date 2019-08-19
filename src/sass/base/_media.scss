@@ -11,6 +11,9 @@
 }
 // до 992px
 @media (max-width: 991px) {
+    .promo__icons {
+        width: 410px;
+    }
     .header {
         padding: 0px 15px;
         &__official {
@@ -49,6 +52,9 @@
 }
 //  до 720px
 @media (max-width: 720px) {
+    .promo__icons {
+        width: 380px;
+    }
     .promo__wrapper {
         justify-content: center;
         align-items: center;
@@ -68,6 +74,36 @@
         }
         .header-phone__a {
             font-size: 15px;
+        }
+    }
+}
+@media (max-width: 576px) {
+    .header {
+        &__official {
+            display: none;
+        }
+        &__logo {
+            width: 175px;
+        }
+        .header-phone__a {
+            font-size: 13px;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 31px;
+            text-align: center;
+        }
+        &__subheader {
+            text-align: center;
+            font-size: 19px;
+        }
+        &__icons {
+            width: 288px;
+        }
+        &__icon {
+            width: 90px;
+            font-size: 13px;
         }
     }
 }
