@@ -3,6 +3,31 @@
 * {
     font-family:' Museo Sans Cyrl', sans-serif;
 }
+
+
+// blocks
+
+
+.button {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: $main-color;
+    &_main {
+        margin-top: 67px;
+        font-size: 16px;
+        width: 300px;
+        height: 50px;
+    }
+}
+
+
+// end block
 .container {
     max-width: 950px;
     margin: 0 auto;
@@ -11,6 +36,56 @@
     min-height: 650px;
     padding: 21px 0px 93px 0px;
     background: url(../img/main-bg.jpg) center center/cover no-repeat;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 90px;
+    }
+    &__header {
+        color: #ffffff;
+        font-size: 42px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__subheader {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    &__icons {
+        margin-top: 67px;
+        display: flex;
+        width: 425px;
+        justify-content: space-between;
+        
+    }
+    &__icon {
+        color: #ffffff;
+        width: 108px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        img {
+            
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+    &__link {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 18px;
+        a {
+            text-decoration: underline;
+            text-transform: uppercase;
+            color: #ffffff;
+
+        }
+    }
 }
 .header {
     display: flex;
@@ -26,28 +101,33 @@
         color: #ffffff;
         font-style: 12px;
         font-weight: 400;
+        text-align: center;
+        span {
+            display: block;
+            font-size: 18px;
+            
         }
     }
-
-
-.header__phone {
-    a {
-        color: #ffffff;
-        font-size: 18px;
-        font-weight: 400;
     }
 
-}
 .header__contacts {
-    button {
-        width: 150px;
-        height: 30px;
-        border-radius: 5px;
-        background-color: #c70101;
-        border: 0px;
-        color: #ffffff;
-        font-size: 12px;
-        font-weight: 400;
-        text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    .header__phone {
+        a {
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 700;
+        
+        &:hover {
+            text-decoration: none;
+            color: #ffffff;
+        }
+    }
     }
 }
+
+
+
+
