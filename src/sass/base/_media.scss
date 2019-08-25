@@ -49,6 +49,12 @@
    .header-phone__a {
        font-size: 14px;
    }
+   .consultation {
+        padding: 100px 0 92px 50px;
+   }
+   .title_left {
+       font-size: 33px;
+   }
 }
 //  до 720px
 @media (max-width: 720px) {
@@ -76,6 +82,21 @@
             font-size: 15px;
         }
     }
+    .block-feed {
+        display: flex;
+        justify-content: center;
+    }
+    .title_left {
+        text-align: center;
+    }
+    .consultation {
+ 
+        &__descr {
+            text-align: center;
+        }
+    }
+    
+    
 }
 @media (max-width: 576px) {
     .header {
@@ -110,6 +131,24 @@
         margin-top: 50px;
         &__title {
             font-size: 27px;
+        }
+    }
+    .title_left {
+        font-size: 29px;
+    }
+    .consultation {
+        padding: 100px 0 92px 0;
+        &__descr {
+            font-size: 18px;
+        }
+    }
+    .feed-form {
+        width: 290px;
+        input {
+            height: 45px;
+        }
+        button {
+            height: 47px;
         }
     }
 }
