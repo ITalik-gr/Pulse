@@ -9,7 +9,7 @@
         }
     }
 }
-// до 992px
+// до 992px 
 @media (max-width: 991px) {
     .promo__icons {
         width: 410px;
@@ -95,8 +95,24 @@
             text-align: center;
         }
     }
+    .reviews {
+        padding: 0px 30px;
+    }
+    .catalog {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
     
-    
+}
+@media (max-width: 679px) {
+    .catalog {
+        &__tab {
+            font-size: 17px;
+        }
+        &__content {
+            justify-content: center;
+        }
+    }
 }
 @media (max-width: 576px) {
     .header {
@@ -149,6 +165,47 @@
         }
         button {
             height: 47px;
+        }
+    }
+    .catalog {
+        &__tab {
+            font-size: 15px;
+        }
+    }
+    .reviews-item {
+        display: flex;
+        flex-direction: column;
+        &__content {
+            text-align: center;
+            margin-top: 25px;
+            margin-left: 0;
+        }
+    }
+}
+@media (max-width: 320px) {
+    .catalog {
+        &-item {
+            &__img {
+                height: 140px;
+            }
+            &__price {
+                font-size: 18px;
+            }
+            &__old-price {
+                font-size: 13px;
+            }
+            &__list {
+                li {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .button {
+        &_mini {
+            width: 90px;
+            height: 35px;
+
         }
     }
 }
