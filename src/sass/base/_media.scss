@@ -168,8 +168,17 @@
         }
     }
     .catalog {
+        padding-right: 35px;
+        padding-left: 35px;
         &__tab {
             font-size: 15px;
+            line-height: 18px;
+        }
+        &__tabs {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
         }
     }
     .reviews-item {
@@ -185,6 +194,9 @@
 @media (max-width: 320px) {
     .catalog {
         &-item {
+            &__content {
+                transform: translateX(-110%);
+            }
             &__img {
                 height: 140px;
             }
@@ -194,6 +206,10 @@
             &__old-price {
                 font-size: 13px;
             }
+            &__tab {
+                width: 100px;
+
+            }
             &__list {
                 li {
                     font-size: 13px;
@@ -201,11 +217,31 @@
             }
         }
     }
+    .reviows {
+        padding: 0px 10px;
+       
+    }
     .button {
         &_mini {
             width: 90px;
             height: 35px;
 
+        }
+    }
+    .catalog {
+        padding-right: 13px;
+        padding-left: 13px;
+        &__tab {
+            font-size: 13px;
+            height: 55px;
+            line-height: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__tabs {
+            
+            
         }
     }
 }
