@@ -109,9 +109,6 @@
         &__tab {
             font-size: 17px;
         }
-        &__content {
-            
-        }
     }
 }
 @media (max-width: 576px) {
@@ -229,8 +226,8 @@
         }
     }
     .catalog {
-        padding-right: 13px;
-        padding-left: 13px;
+        padding-right: 14px;
+        padding-left: 14px;
         &__tab {
             font-size: 13px;
             height: 55px;
@@ -239,9 +236,10 @@
             justify-content: center;
             align-items: center;
         }
-        &__tabs {
-            
-            
-        }
+    }
+    .footer__info {
+            /* padding: 50px 68px 60px 68px; */
+            width: 100%;
+            padding: 20px 10px;
     }
 }
