@@ -60,7 +60,7 @@
 //  до 720px
 @media (max-width: 720px) {
     .promo__icons {
-        min-width: 380px;
+        max-width: 380px;
     }
     .promo__wrapper {
         justify-content: center;
