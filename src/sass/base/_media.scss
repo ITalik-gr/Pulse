@@ -102,6 +102,10 @@
         padding-right: 40px;
         padding-left: 40px;
     }
+    .modal {
+        width: 360px;
+        padding: 28px 30px 30px 30px;
+    }
     
 }
 @media (max-width: 679px) {
@@ -187,8 +191,13 @@
             margin-left: 0;
         }
     }
-}
+    }
+
 @media (max-width: 320px) {
+
+    .header__logo {
+        width: 150px;
+    }
     .catalog {
         &-item {
             &__content {
@@ -241,5 +250,15 @@
             /* padding: 50px 68px 60px 68px; */
             width: 100%;
             padding: 20px 10px;
+    }
+    .feed-form {
+        width: 240px;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .modal {
+        width: 200px;
+        height: 350px;
+        padding: 10px;
     }
 }

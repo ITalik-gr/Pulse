@@ -26,6 +26,9 @@
             margin-bottom: 20px;
         }
     }
+    &_mt25 {
+        margin-top: 25px;
+    }
 }
 
 
@@ -555,3 +558,4 @@
 }
 
 @import 'base/media';
+@import 'blocks/modal';
