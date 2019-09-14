@@ -281,7 +281,7 @@
     }
     .modal {
         width: 280px;
-        height: 350px;
+        min-height: 350px;
         padding: 10px;
     }
 }
